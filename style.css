@@ -1,0 +1,22 @@
+body{
+
+}
+
+div{
+
+}
+
+
+.header{
+    height: 15vh;
+    background-color: yellow;
+    border: 5px black solid;
+    width: 50%
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: black;
+    font-family: "Verdana";
+}
