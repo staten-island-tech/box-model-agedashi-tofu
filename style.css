@@ -1,21 +1,30 @@
+html{
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+}
+    
 body{
 
 }
 
 div{
+    margin: 2rem;
+    height: 2rem;
 
 }
 
 
 .header{
     height: 15vh;
-    background-color: yellow;
-    border: 5px black solid;
-    width: 50%
+    background-color: linear-gradient(top to bottom, rgba(200,200,200,50), rgba(100,100,100,50));
+    border: .5rem black solid;
+    width: 80%;
+    
 }
 
 h1{
-    font-size: 50px;
+    font-size: 5rem;
     text-align: center;
     color: black;
     font-family: "Verdana";
