@@ -9,8 +9,8 @@ body{
 }
 
 div{
-    margin: 2rem;
-    height: 2rem;
+    margin: 10rem;
+    height: 10rem;
 
 }
 
@@ -20,7 +20,7 @@ div{
     background-color: linear-gradient(top to bottom, rgba(200,200,200,50), rgba(100,100,100,50));
     border: .5rem black solid;
     width: 80%;
-    
+    transform: -50%, -50%;
 }
 
 h1{
@@ -28,4 +28,29 @@ h1{
     text-align: center;
     color: black;
     font-family: "Verdana";
+}
+
+.images{
+    position: relative;
+    height: 100%;
+    background-color: linear-gradient(left to right, blue, red);
+    z-index: 0;
+}
+
+.child{
+    position: absolute;
+    border: .5rem black solid;
+    height: 80%;
+    z-index: 1;
+    left: 5rem;
+    top: 5rem; 
+}
+
+.child2{
+    position: absolute;
+    border: .5rem black solid;
+    z-index: 1;
+    top: 5rem;
+    right: 5rem;
+    height: 80%
 }
